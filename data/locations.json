@@ -1,5 +1,12 @@
 { "type": "FeatureCollection", "features": [
- { "type": "Feature", "geometry": {"type": "Point", "coordinates": [8.146384, 53.564549]}, "properties": {"name": "Kraftwerk E.ON"} },
- { "type": "Feature", "geometry": { "type": "LineString", "coordinates": [ [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0] ] }, "properties": { "prop0": "value0", "prop1": 0.0 } },
+ { "type": "Feature", "geometry": {"type": "Point", "coordinates": [8.146384, 53.564549]}, "properties": {
+    "name": "Kraftwerk E.ON",
+    "wiki": "http://de.m.wikipedia.org/wiki/Kraftwerk_Wilhelmshaven_(E.ON)"
+ }},
+ { "type": "Feature", "geometry": {"type": "Point", "coordinates": [8.137, 53.5748]}, "properties": {
+    "name": "Kraftwerk GDF Suez",
+    "wiki": "http://de.m.wikipedia.org/wiki/Kraftwerk_Wilhelmshaven_(GDF_Suez)"
+ }},
+ { "type": "Feature", "geometry": { "type": "LineString", "coordinates": [ [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0] ] }, "properties": { "name": "value0", "prop1": 0.0 } },
  { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [ [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0] ] ] }, "properties": { "prop0": "value0", "prop1": {"this": "that"} } }
  ] }
